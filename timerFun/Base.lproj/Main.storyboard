@@ -24,28 +24,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRo-nN-KgD">
-                                <rect key="frame" x="166" y="144" width="42" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaL-ez-UXT">
+                                <rect key="frame" x="96" y="235" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pause"/>
+                                <state key="normal" title="Start"/>
                                 <connections>
-                                    <action selector="pauseIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Nv-Gb-axc"/>
+                                    <action selector="startIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tEU-HA-0ib"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzW-zv-boO">
-                                <rect key="frame" x="222" y="144" width="46" height="30"/>
+                                <rect key="frame" x="238" y="235" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset"/>
                                 <connections>
                                     <action selector="resetIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cub-Hv-s0G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaL-ez-UXT">
-                                <rect key="frame" x="112" y="144" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRo-nN-KgD">
+                                <rect key="frame" x="166" y="235" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
+                                <state key="normal" title="Pause"/>
                                 <connections>
-                                    <action selector="startIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tEU-HA-0ib"/>
+                                    <action selector="pauseIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Nv-Gb-axc"/>
                                 </connections>
                             </button>
                         </subviews>
